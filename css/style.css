@@ -1,0 +1,1938 @@
+/*---------------
+   Fonts
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/*---------------
+   Global Css
+-----------------*/
+
+
+:root{
+    --main-color: #ffffff;
+    --color-1: #DADADA;
+    --color-2: #000000;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none!important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*---------------
+   Global CSS
+-----------------*/
+
+
+/*---------------
+   Section Setting Global
+-----------------*/
+
+
+#about{
+    padding-top: 80px;
+}
+
+#services{
+    padding-top: 80px;
+}
+
+#contact{
+    padding-top: 80px;
+}
+
+/*---------------
+   Button Global
+-----------------*/
+
+
+.btn-1{
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 18px;
+    font-weight: 700;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.btn1:focus{
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-1:hover{
+    color: #ffffff;
+    background-color: #a66cff;
+    border: 2px solid #a66cff;
+}
+
+.btn-2{
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 18px;
+    font-weight: 700;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.btn2:focus{
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-2:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+/*---------------
+   Navbar Global
+-----------------*/
+
+
+.navbar{
+    background-color: #ffffff;
+    margin-top: -10px;
+}
+
+.navbar-brand{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+.navbar-nav .nav-link{
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    padding-left: -40px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+
+/*---------------
+   Home Section Global
+-----------------*/
+
+
+.home{
+    padding-top: 100px;
+    min-height: 90vh;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.home-img img{
+    max-width: 800px;
+    width: 200%;
+    margin-left: -180px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.home-text h1{
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+}
+
+.home-text h2{
+    font-size: 50px;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.home-text h2 span{
+    font-weight: 600;
+    color: #000000;
+}
+
+.home-text h2 span:hover{
+    font-weight: 600;
+    color: #a66cff;
+    transition: all 0.2s ease;
+}
+
+.home-text p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.home .home-btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/*---------------
+   About Section Global
+-----------------*/
+
+
+.about{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tittle-about h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.about .col-lg-7:first-child {
+    display: none;
+}
+
+.foto1{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text1 h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text2 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/*---------------
+   Services Section Global
+-----------------*/
+
+
+.services{
+    background-image: url('../img/background1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    isolation: isolate;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: #ffffff;
+    opacity: 0.8;
+}
+
+.services-1{
+    margin: 5px 60px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-2{
+    margin: 5px 60px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-3{
+    margin: 5px 60px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-4{
+    margin: 5px 60px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-1 .foto-1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-2 .foto-2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-3 .foto-3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 37%;
+}
+
+.services-4 .foto-4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-text h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services-4 .services-text h4{
+    margin-top: -5px;
+}
+
+.services-3 .services-text h4{
+    margin-top: -5px;
+}
+
+.services-text p{
+    font-size: 11px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-contents h1{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.services-1:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-2:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-3:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease;
+}
+
+.services-4:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease;
+}
+
+
+/*---------------
+   Contact Section Global
+-----------------*/
+
+
+.contact{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.contact-tittle h1{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact-tittle .tell-me{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-tittle .tell-me:hover{
+    color: #a66cff;
+    font-size: 30px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.text-contact h1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text-contact p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.text-contact .whatsapp{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-contact .whatsapp:hover{
+    font-size: 18px;
+    font-weight: 500;
+    color: #a66cff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.text-contact .email{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-contact .email:hover{
+    font-size: 18px;
+    font-weight: 500;
+    color: #a66cff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-icons .icon-wrapper{
+    margin-top: -30px;
+    text-decoration: none;
+    width: auto;
+}
+
+.social-icons{
+    margin-top: -30px;
+}
+
+/* Messages */
+
+.text-messages{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.messages h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.text-messages{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#name, #email, #messages{
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+}
+
+#messages{
+    margin-bottom: 30px;
+}
+
+
+/*---------------
+   Footer Section Desktop
+-----------------*/
+
+
+.footer{
+    background-color: #a66cff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: -60%;
+    overflow: hidden;
+}
+
+.footer-tittle h1{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer-tittle h1 .text-footer{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-tittle h1 .text-footer:hover{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Services, Overview, Follow */
+
+.footer-services h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.text-services{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: -15px;
+}
+
+.text-overview{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: -15px;
+}
+
+.text-overview:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.text-follow{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-follow:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.footer-line{
+    margin-top: 50px;
+    border-top: 1px solid #000000;
+}
+
+.footer-line h1{
+    font-size: 8px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------
+    TABLET VERSION
+-----------------*/
+@media (min-width: 768px) {
+
+
+
+/*---------------
+   Section Setting Tablet
+-----------------*/
+
+
+#about{
+    padding-top: 100px;
+}
+
+#services{
+    padding-top: 80px;
+}
+
+#contact{
+    padding-top: 130px;
+}
+
+
+/*---------------
+   Button Tablet
+-----------------*/
+
+
+.btn-1{
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 18px;
+    font-weight: 700;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.btn1:focus{
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-1:hover{
+    color: #ffffff;
+    background-color: #a66cff;
+    border: 2px solid #a66cff;
+}
+
+.btn-2{
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 18px;
+    font-weight: 700;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.btn2:focus{
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-2:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+/*---------------
+   Navbar Tablet
+-----------------*/
+
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: none;
+    transition: all 0.5s ease;
+    margin-top: -5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    
+.navbar-brand{
+    font-size: 23px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+    
+.nav-link{
+    margin-left: 0;
+    text-align: center;
+}
+    
+.navbar-nav{
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+    
+.navbar-nav .nav-link{
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/*---------------
+   Home Section Tablet
+-----------------*/
+
+
+.home{
+    min-height: 70vh;
+    background-color: #ffffff;
+    overflow: hidden !important;
+}
+
+.home-img img{
+    max-width: 970px;
+    width: 300%;
+    margin-left: -250px;
+    margin-right: auto;
+    text-align: right;
+}
+
+.home-img{
+    position: relative;
+}
+
+.home-text h1{
+    font-size: 26px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.home-text h2{
+    font-size: 60px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
+.home-text h2 span{
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.home-text h2 span:hover{
+    font-weight: 600;
+    color: #a66cff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.home-text p{
+    font-size: 17px;
+    font-weight: 650;
+    color: #000000;
+    margin: 0 0;
+    text-align: left;
+}
+
+.home .home-btn{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+/*---------------
+   About Section Tablet
+-----------------*/
+
+
+.about{
+    background-color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.tittle-about h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.about .col-lg-7:first-child {
+    display: none;
+}
+
+.foto1{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.text1 h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.text2 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/*---------------
+   Services Section Tablet
+-----------------*/
+
+
+.services{
+    background-image: url('../img/background1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 80px;
+    background-repeat: no-repeat;
+    position: relative;
+    isolation: isolate;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+.services-1{
+    margin: 8px 150px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-2{
+    margin: 8px 150px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-3{
+    margin: 8px 150px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-4{
+    margin: 8px 150px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-1 .foto-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-2 .foto-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-3 .foto-3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 37%;
+}
+
+.services-4 .foto-4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-text h4{
+    font-size: 23px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services-4 .services-text h4{
+    margin-top: -5px;
+}
+
+.services-3 .services-text h4{
+    margin-top: -5px;
+}
+
+.services-text p{
+    font-size: 15px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-contents h1{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.services-1:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-2:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-3:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease;
+}
+
+.services-4:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease;
+}
+
+
+/*---------------
+   Contact Section Tablet
+-----------------*/
+
+
+.contact{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: -250px;
+}
+
+.contact-tittle h1{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.contact-tittle .tell-me{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contact-tittle .tell-me:hover{
+    color: #a66cff;
+    font-size: 45px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    align-items: center;
+}
+
+.text-contact h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.text-contact p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.text-contact .whatsapp{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-contact .whatsapp:hover{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a66cff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.text-contact .email{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-contact .email:hover{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a66cff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-icons .icon-wrapper{
+    margin-top: -20px;
+    text-decoration: none;
+    width: auto;
+}
+
+.social-icons{
+    margin-top: -25px;
+}
+
+/* Messages */
+
+.text-messages{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messages h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.text-messages{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#name, #email, #messages{
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+}
+
+#messages{
+    margin-bottom: 30px;
+}
+
+
+/*---------------
+   Footer Section Tablet
+-----------------*/
+
+
+.footer{
+    background-color: #a66cff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -18%;
+    overflow: hidden;
+}
+
+.footer-tittle h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer-tittle h1 .text-footer{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-tittle h1 .text-footer:hover{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Services, Overview, Follow */
+
+.footer-services h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.text-services{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+.text-overview{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: auto;
+}
+
+.text-overview:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.text-follow{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-follow:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.footer-line{
+    margin-top: 80px;
+    border-top: 2px solid #000000;
+}
+
+.footer-line h1{
+    font-size: 11px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/*---------------
+   DESKTOP VERSION
+-----------------*/
+@media (min-width: 992px) {
+
+
+/*---------------
+   Section Setting Desktop
+-----------------*/
+
+
+#about{
+    padding-top: 130px;
+}
+
+#services{
+    padding-top: 120px;
+}
+
+#contact{
+    padding-top: 150px;
+}
+
+
+/*---------------
+   Button Desktop
+-----------------*/
+
+
+.btn-1{
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 18px;
+    font-weight: 700;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.btn1:focus{
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-1:hover{
+    color: #ffffff;
+    background-color: #a66cff;
+    border: 2px solid #a66cff;
+}
+
+.btn-2{
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 18px;
+    font-weight: 700;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+
+.btn2:focus{
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2), 0 3px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-2:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+/*---------------
+   Navbar Desktop
+-----------------*/
+
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: none;
+    transition: all 0.5s ease;
+    margin-top: -10px;
+}
+
+.navbar-brand{
+    font-size: 26px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+
+.nav-link{
+    margin-left: 40px;
+}
+
+.navbar-nav{
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.navbar-nav .nav-link{
+    color: #000000 !important;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 4px;
+    background-color: #000000;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+
+.navbar-nav .nav-link.active::before,
+.navbar-nav .nav-link:hover::before{
+    transform: scale(0.5);
+}
+
+
+/*---------------
+   Home Section Desktop
+-----------------*/
+
+
+.home{
+    padding-top: 88px;
+    min-height: 100vh;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.home-img img{
+    max-width: 970px;
+    width: 300%;
+    margin-left: -190px;
+    margin-right: auto;
+    text-align: right;
+}
+
+.home-img{
+    position: relative;
+}
+
+.home-text h1{
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+}
+
+.home-text h2{
+    font-size: 100px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
+.home-text h2 span{
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.home-text h2 span:hover{
+    font-weight: 600;
+    color: #a66cff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.home-text p{
+    font-size: 20px;
+    font-weight: 650;
+    color: #000000;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+.home .home-btn{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+/*---------------
+   About Section Desktop
+-----------------*/
+
+
+.about{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tittle-about h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+.illustration-about{
+    position: relative;
+}
+
+.illustration-about img{
+    width: 100%;
+    position: absolute;
+}
+
+.illustration-about img:first-child {
+    width: 550px;
+    transform: translateY(-150px);
+    z-index: 6;
+}
+
+/*-- BIG GEAR --*/
+
+.illustration-about img:nth-child(2) {
+    width: 150px;
+    margin-left: 420px;
+    margin-top: -200px;
+    z-index: 1;
+}
+
+/*-- SMALL GEAR --*/
+
+.illustration-about img:nth-child(3) {
+    width: 60px;
+    z-index: 2;
+    margin-top: -170px;
+    margin-left: 50px;
+}
+
+/*-- MIC --*/
+
+.illustration-about img:nth-child(4) {
+    width: 90px;
+    z-index: 5;
+    margin-left: 300px;
+    margin-top: -180px;
+}
+
+/*-- CAMERA --*/
+
+.illustration-about img:nth-child(5) {
+    width: 130px;
+    z-index: 7;
+    margin-left: -110px;
+    margin-top: -350px;
+}
+
+/*-- CODE --*/
+
+.illustration-about img:nth-child(6) {
+    width: 200px;
+    z-index: 4;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+/*-- PLANE --*/
+
+.illustration-about img:nth-child(7) {
+    width: 200px;
+    z-index: 3;
+    margin-left: 130px;
+    margin-top: -420px;
+}
+
+.about .col-lg-7:first-child {
+    display: block;
+}
+
+.foto1{
+    width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text1 h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.text2 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+/*---------------
+   Services Section Desktop
+-----------------*/
+
+
+.services{
+    background-image: url('../img/background1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 80px;
+    background-repeat: no-repeat;
+    position: relative;
+    isolation: isolate;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+.services-1{
+    margin: 0 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-2{
+    margin: 0 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-3{
+    margin: 0 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-4{
+    margin: 0 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.services-1 .foto-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-2 .foto-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-3 .foto-3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 37%;
+}
+
+.services-4 .foto-4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 35%;
+}
+
+.services-text h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.services-4 .services-text h4{
+    margin-top: -5px;
+}
+
+.services-3 .services-text h4{
+    margin-top: -5px;
+}
+
+.services-text p{
+    font-size: 11px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.text-contents h1{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.services-1:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-2:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-3:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease;
+}
+
+.services-4:hover{
+    background-color: #a66cff;
+    transform: scale(1.04);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+    transition: all 0.2s ease;
+}
+
+
+/*---------------
+   Contact Section Desktop
+-----------------*/
+
+
+.contact{
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.contact-tittle h1{
+    color: #000000;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.contact-tittle .tell-me{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+}
+
+.contact-tittle .tell-me:hover{
+    color: #a66cff;
+    font-size: 50px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    align-items: center;
+}
+
+.text-contact h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-contact p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.text-contact p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.text-contact .whatsapp{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-contact .whatsapp:hover{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a66cff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.text-contact .email{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-contact .email:hover{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a66cff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-icons .icon-wrapper{
+    margin-top: 0;
+    text-decoration: none;
+    width: auto;
+}
+
+/* Messages */
+
+.text-messages{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messages h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.text-messages{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#name, #email, #messages{
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+}
+
+#messages{
+    margin-bottom: 30px;
+}
+
+
+/*---------------
+   Footer Section Desktop
+-----------------*/
+
+
+.footer{
+    background-color: #a66cff;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-top: -18%;
+    overflow: hidden;
+}
+
+.footer-tittle h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer-tittle h1 .text-footer{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-tittle h1 .text-footer:hover{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Services, Overview, Follow */
+
+.footer-services h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.text-services{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+.text-overview{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: auto;
+}
+
+.text-overview:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.text-follow{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+
+.text-follow:hover{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.footer-line{
+    margin-top: 100px;
+    border-top: 2px solid #000000;
+}
+
+.footer-line h1{
+    font-size: 11px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+}
